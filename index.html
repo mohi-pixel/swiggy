@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swiggy Landing Page</title>
+  <link rel="stylesheet" href="utils.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== HERO ========== -->
+  <header class="hero">
+    <nav class="navbar flex justify-between align-center container">
+      <h2 class="logo">Swiggy</h2>
+      <ul class="nav-links flex align-center gap-20">
+        <li><a href="#">Swiggy Corporate</a></li>
+        <li><a href="#">Partner with us</a></li>
+        <li><a href="#">Get the App</a></li>
+        <li><a href="#" class="btn-dark">Sign in</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content text-center container">
+      <h1>Order food &amp; groceries. Discover best restaurants. Swiggy it!</h1>
+
+      <div class="search-box flex justify-center gap-10">
+        <select>
+          <option>Enter your delivery location</option>
+          <option>Delhi</option>
+          <option>Mumbai</option>
+          <option>Bangalore</option>
+        </select>
+        <input type="text" placeholder="Search for restaurant, item or more">
+      </div>
+
+      <div class="service-cards flex justify-center gap-20">
+        <div class="service-card bg-white rounded">
+          <h3>FOOD DELIVERY</h3>
+          <p>FROM RESTAURANTS</p>
+          <span class="offer">UPTO 60% OFF</span>
+          <img class="card-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWqzhwjUB7p7c78f5xcAxMjacXZuT5-SCcG1DLEQF1ZuY-38Q-ZrB0-CxU&s=10" alt="Food delivery">
+        </div>
+        <div class="service-card bg-white rounded">
+          <h3>INSTAMART</h3>
+          <p>INSTANT GROCERY</p>
+          <span class="offer">UPTO 60% OFF</span>
+          <img class="card-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMqgCSeobzrTHR6ZhSYyQF5P2CamCZI9iJ89YNqptbAw&s=10" alt="Instamart">
+        </div>
+        <div class="service-card bg-white rounded">
+          <h3>DINEOUT</h3>
+          <p>EAT OUT &amp; SAVE MORE</p>
+          <span class="offer">UPTO 50% OFF</span>
+          <img class="card-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOjwssN0lNipNLBN7b14mT8H9j-P6E16IOMeIOQRTW3A&s=10" alt="Dineout">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========== FOOD OPTIONS ========== -->
+  <section class="container section">
+    <h2 class="section-title">Order our best food options</h2>
+    <div class="item-grid flex wrap">
+      <div class="item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0tnYLPARi6ueLERtZ_UjG34xs_iABAGxOjNRmRn3haw&s=10" alt="North Indian"><p>North Indian</p></div>
+      <div class="item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_4aGn1VO584EPbMq-rpavYLrYDRt71DqO9uQioHpGyQ&s=10" alt="Pizza"><p>Pizza</p></div>
+      <div class="item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS04SQtGqoj7x1Ug1j1G6hiSpsILzI_2hk3kqSA9bPHAg&s=10" alt="Burger"><p>Burger</p></div>
+      <div class="item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQZfO3b3MX3dyTPg-KU_BEpRdlgfrr7loiI80ajEL49w&s=10" alt="Cake"><p>Cake</p></div>
+      
+      
+      <div class="item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkkqOlMii_i8oK2QfUqbwOYQkkyOhZPPdpAu_qrdtVXQ&s=10" alt="Desserts"><p>Desserts</p></div>
+      
+     
+      <div class="item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTbofgg06NzQ_-yqXxj-f-EV0DPV9PmWL-dK83RUlOtw&s=10" alt="Coffee"><p>Coffee</p></div>
+    </div>
+  </section>
+
+  <!-- ========== INSTAMART ========== -->
+  <section class="container section">
+    <h2 class="section-title">Shop groceries on Instamart</h2>
+    <div class="item-grid flex wrap">
+      <div class="item"><p>Fresh Vegetables</p></div>
+      <div class="item"><p>Fresh Fruits</p></div>
+      <div class="item"><p>Dairy, Bread and Eggs</p></div>
+      <div class="item"><p>Rice, Atta and Dals</p></div>
+      <div class="item"><p>Masalas and Dry Fruits</p></div>
+      <div class="item"><p>Oils and Ghee</p></div>
+      <div class="item"><p>Munchies</p></div>
+    </div>
+  </section>
+
+  <!-- ========== DINEOUT ========== -->
+  <section class="container section">
+    <h2 class="section-title">Best restaurants on Dineout</h2>
+    <div class="dine-list flex gap-20">
+
+      <div class="dine-card">
+        <div class="dine-img bg-1"><img class="dine-photo" src="images/rolls-mania.svg" alt="Rolls Mania"><h4>Rolls Mania</h4><span>★ 3.9</span></div>
+        <div class="dine-info flex justify-between">
+          <p>Rolls, Beverages</p><p>₹300 for two</p>
+        </div>
+        <p class="green-tag">Flat 30% off on pre-booking</p>
+        <p class="green-light">Up to 10% off with bank offers</p>
+      </div>
+
+      <div class="dine-card">
+        <div class="dine-img bg-2"><img class="dine-photo" src="images/yellow-chilli.svg" alt="The Yellow Chilli"><h4>The Yellow Chilli</h4><span>★ 4.3</span></div>
+        <div class="dine-info flex justify-between">
+          <p>North Indian, Kebab</p><p>₹1500 for two</p>
+        </div>
+        <p class="green-tag">Flat 20% off on pre-booking</p>
+        <p class="green-light">Up to 10% off with bank offers</p>
+      </div>
+
+      <div class="dine-card">
+        <div class="dine-img bg-3"><img class="dine-photo" src="images/jain-bhojnalya.svg" alt="Jain Shudh Bhojnalya"><h4>Jain Shudh Bhojnalya</h4><span>★ 4.2</span></div>
+        <div class="dine-info flex justify-between">
+          <p>North Indian, Italian</p><p>₹600 for two</p>
+        </div>
+        <p class="green-tag">Flat 10% off on walk-in</p>
+        <p class="green-light">Up to 10% off with bank offers</p>
+      </div>
+
+      <div class="dine-card">
+        <div class="dine-img bg-4"><img class="dine-photo" src="images/gianis.svg" alt="Giani's"><h4>Giani's</h4><span>★ 4.1</span></div>
+        <div class="dine-info flex justify-between">
+          <p>Ice Cream, Beverages</p><p>₹400 for two</p>
+        </div>
+        <p class="green-tag">Flat 25% off on pre-booking</p>
+        <p class="green-light">Up to 10% off with bank offers</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== APP BANNER ========== -->
+  <section class="container section">
+    <div class="app-banner flex justify-between align-center">
+      <h2>Get the Swiggy App now!</h2>
+      <div class="qr-box text-center">
+        <div class="qr">▦▦▦</div>
+        <p>Scan to download</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CITIES ========== -->
+  <section class="container section">
+    <h2 class="section-title">Cities with food delivery</h2>
+    <div class="city-grid">
+      <a href="#" class="city">Order food online in Bangalore</a>
+      <a href="#" class="city">Order food online in Gurgaon</a>
+      <a href="#" class="city">Order food online in Hyderabad</a>
+      <a href="#" class="city">Order food online in Delhi</a>
+      <a href="#" class="city">Order food online in Mumbai</a>
+      <a href="#" class="city">Order food online in Pune</a>
+      <a href="#" class="city">Order food online in Kolkata</a>
+      <a href="#" class="city">Order food online in Chennai</a>
+      <a href="#" class="city">Order food online in Ahmedabad</a>
+      <a href="#" class="city">Order food online in Chandigarh</a>
+      <a href="#" class="city">Order food online in Jaipur</a>
+      <a href="#" class="city show-more" id="showMore">Show More</a>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container flex justify-between wrap gap-20">
+      <div>
+        <h2 class="logo">Swiggy</h2>
+        <p>© 2026 Swiggy Limited</p>
+      </div>
+
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Swiggy Corporate</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Team</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Contact us</h4>
+        <ul>
+          <li><a href="#">Help &amp; Support</a></li>
+          <li><a href="#">Partner With Us</a></li>
+          <li><a href="#">Ride With Us</a></li>
+        </ul>
+        <h4 class="mt-20">Legal</h4>
+        <ul>
+          <li><a href="#">Terms &amp; Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Available in:</h4>
+        <ul>
+          <li><a href="#">Bangalore</a></li>
+          <li><a href="#">Gurgaon</a></li>
+          <li><a href="#">Hyderabad</a></li>
+          <li><a href="#">Delhi</a></li>
+          <li><a href="#">Mumbai</a></li>
+          <li><a href="#">Pune</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Life at Swiggy</h4>
+        <ul>
+          <li><a href="#">Explore With Swiggy</a></li>
+          <li><a href="#">Swiggy News</a></li>
+          <li><a href="#">Snackables</a></li>
+        </ul>
+        <h4 class="mt-20">Social Links</h4>
+        <p>in &nbsp; ig &nbsp; f &nbsp; p &nbsp; t</p>
+      </div>
+    </div>
+
+    <div class="container flex justify-center align-center gap-20 download-row">
+      <p>For better experience, download the Swiggy app now</p>
+      <a href="#" class="store-btn">App Store</a>
+      <a href="#" class="store-btn">Google Play</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

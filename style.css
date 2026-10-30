@@ -1,0 +1,203 @@
+/* ===== HERO ===== */
+.hero {
+  background-color: #ff5200;
+  padding-bottom: 50px;
+  color: #fff;
+}
+
+.navbar { padding: 20px 0; }
+
+.logo { color: #fff; font-size: 28px; }
+
+.nav-links a { color: #fff; font-size: 14px; }
+
+.btn-dark {
+  background-color: #02060c;
+  padding: 12px 25px;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.hero-content { padding-top: 40px; }
+
+.hero-content h1 {
+  width: 60%;
+  margin: 0 auto 30px;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+/* Search */
+.search-box { margin-bottom: 40px; }
+
+.search-box select,
+.search-box input {
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+}
+.search-box select { width: 250px; }
+.search-box input  { width: 350px; }
+
+/* Service cards */
+.service-card {
+  width: 280px;
+  height: 220px;
+  padding: 20px;
+  color: #02060c;
+  text-align: left;
+  position: relative;
+  transition: transform 0.3s;
+}
+.service-card:hover { transform: translateY(-8px); }
+
+.service-card h3 { font-size: 22px; }
+.service-card p  { color: #686b78; margin: 5px 0 15px; font-size: 13px; }
+
+.offer { color: #ff5200; font-weight: bold; font-size: 13px; }
+
+.card-img {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  width: 110px;
+}
+
+/* ===== SECTIONS ===== */
+.section { padding: 40px 0 10px; }
+
+.section-title {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+/* Food + Instamart items */
+.item-grid { gap: 25px 35px; }
+
+.item { width: 110px; text-align: center; cursor: pointer; }
+
+.item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+.item:hover img { transform: scale(1.15); }
+
+.item p { font-size: 14px; color: #3d4152; margin-top: 8px; }
+
+/* ===== DINEOUT ===== */
+.dine-card {
+  width: 250px;
+  border: 1px solid #e9e9eb;
+  border-radius: 15px;
+  padding-bottom: 10px;
+  overflow: hidden;
+  transition: box-shadow 0.3s;
+}
+.dine-card:hover { box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); }
+
+.dine-img {
+  position: relative;
+  height: 160px;
+  padding: 15px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.bg-1 { background-color: #b5381b; }
+.bg-2 { background-color: #7a3b1d; }
+.bg-3 { background-color: #c97b2a; }
+.bg-4 { background-color: #d9442a; }
+
+.dine-info { padding: 10px; font-size: 13px; color: #3d4152; }
+
+.green-tag {
+  background-color: #1ba672;
+  color: #fff;
+  margin: 5px 10px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+.green-light {
+  background-color: #d5f1e4;
+  color: #1ba672;
+  margin: 5px 10px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+/* ===== APP BANNER ===== */
+.app-banner {
+  background-color: #1b1b1b;
+  color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+}
+.app-banner h2 { font-size: 32px; font-weight: 500; }
+
+.qr-box { background-color: #fff; color: #02060c; padding: 15px 25px; border-radius: 15px; }
+.qr     { font-size: 40px; }
+
+/* ===== CITIES ===== */
+.city-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.city {
+  border: 1px solid #e9e9eb;
+  border-radius: 12px;
+  padding: 18px 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #3d4152;
+  transition: background-color 0.3s;
+}
+.city:hover { background-color: #f1f1f6; }
+
+.show-more { color: #ff5200; font-weight: bold; }
+
+/* ===== FOOTER ===== */
+.footer {
+  background-color: #f9f9f9;
+  margin-top: 50px;
+  padding: 50px 0 30px;
+}
+
+.footer h4 { margin-bottom: 12px; }
+.footer li { margin-bottom: 8px; font-size: 14px; color: #686b78; }
+.footer li a:hover { color: #ff5200; }
+.footer .logo { color: #ff5200; }
+
+.download-row { margin-top: 40px; }
+
+.store-btn {
+  background-color: #02060c;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+/* Dineout photo fills the image box, text sits on top */
+.dine-photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.dine-img h4,
+.dine-img span {
+  position: relative;
+  z-index: 1;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
+}
